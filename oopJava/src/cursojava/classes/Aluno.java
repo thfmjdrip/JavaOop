@@ -18,6 +18,10 @@ public class Aluno {
 	private double nota4;
 	
 	
+	public Aluno() {
+		
+	}
+	
 	public Aluno(String nome,int idade, String cpf) {
 		this.nome = nome;
 		this.idade = idade;
